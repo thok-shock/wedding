@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.highlight {
+  color: #f1c432
+}
+
+.backlight {
+  color: #05a9f5
+}
+
+body {/* CSS HEX */
+--saffron: #f1c432ff;
+--picton-blue: #05a9f5ff;
+--lavender-blush: #eee5e9ff;
+--dim-gray: #646E68;
+--indigo-dye: #2b4162ff;
+--indigo-dye-light: rgb(54, 73, 102);
+
+/* CSS HSL */
+--saffron: hsla(46, 87%, 57%, 1);
+--picton-blue: hsla(199, 96%, 49%, 1);
+--lavender-blush: hsla(333, 21%, 92%, 1);
+--indigo-dye: hsla(216, 39%, 28%, 1);
+}
