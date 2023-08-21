@@ -94,6 +94,7 @@ App.use('/file/:id', (req, res) => {
 })
 
 App.use("/api", apiRouter);
+
 App.use("*", (req, res, next) => {
     res.sendFile(path.join(__dirname, '../src/index.html'))
 })

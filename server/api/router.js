@@ -1,8 +1,9 @@
 const express = require('express')
+const guestRouter = require('./guest/router')
 
 const router = express.Router()
 
-// router.use('/login', loginRouter)
+router.use('/guest', guestRouter )
 
 router.get('/', (req, res) => {
     res.send('hello')
