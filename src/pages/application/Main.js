@@ -92,10 +92,10 @@ export default function Main(props) {
         </Row>
         <Row>
           <Col>
-            <h1 className='text-center display-4'>Our Story</h1><p className='text-center'>Ryan and Touyer met in April of 2020 through their mutual friend, Aaraf. Their first date was a group trip to Noodles and Company on University Avenue in Madison.</p>
+            <h1 className='text-center display-4'>Our Story</h1><p className='text-center'>We met in April of 2020 through our mutual friend, Aaraf. Our first date was a group trip to Noodles and Company on University Avenue in Madison.</p>
           </Col>
         </Row>
-        <Row><Col lg='6'><img style={{ width: '100%' }} src='/file/touyer.jpg' alt='Touyer standing on the beach of lake mendota near Eagle Heights'></img></Col><Col lg='6'></Col></Row>
+        <Row><Col lg='6'><img style={{ width: '100%' }} src='/file/touyer.jpg' alt='Touyer standing on the beach of lake mendota near Eagle Heights'></img></Col><Col lg='6'>Our initial meeting blossomed into countless adventures together, deep conversations that stretched late into the night, and countless shared smiles. With every passing day, we grew to understand each other's hopes, dreams, and quirks, and it wasn't long before we realized that we had found something truly special in one another. Now, as we embark on this exciting journey towards marriage, we can't wait to continue building our lives together, cherishing the love and connection that brought us together in the first place.</Col></Row>
       </Container>
     </div>
   );}
